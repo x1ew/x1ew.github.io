@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/photo_2023-09-26 11.26.40.jpeg" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/photo_2023-09-23 14.11.33.jpeg" alt="Zahra Ahmadi" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Zahra Ahmadi">Zahra Ahmadi</h1>
+
+          <p class="title">Machine Learning Researcher</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:xahraahmadi99@gmail.com" class="contact-link">xahraahmadi99@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+989128494351" class="contact-link">+98 9128494351</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">September 6, 1999</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Tehran, Iran</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://linkedin.com/in/zahra-ahmadii/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          
+          <li class="social-item">
+            <a href="https://github.com/x1ew" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          
+          <li class="social-item">
+            <a href="https://twitter.com/x1ieww" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certification</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am an ambitious and enthusiastic Computer Engineering student who is eager to utilize
+            my skills and passion to pursue a career in my field. 
+            I am keenly interested in Machine Learning, with a specific focus on Deep Learning. 
+            Furthermore, I am actively involved in research projects within this field. 
+            During my university tenure, I earned the 10th rank among a cohort of 70 students.  
+            I have gained a strong foundation and a variety of experiences through this educational 
+            background, which gives me an advantage in my academic pursuits.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Interests</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <!-- <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div> -->
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning</h4>
+
+                <!-- <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p> -->
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <!-- <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div> -->
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Deep Learning</h4>
+
+                <!-- <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p> -->
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <!-- <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div> -->
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Artificial Intelligence</h4>
+
+                <!-- <p class="service-item-text">
+                  Professional development of applications for iOS and Android.
+                </p> -->
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <!-- <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div> -->
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Computer Vision</h4>
+
+                <!-- <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p> -->
+              </div>
+
+            </li>
+
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Natural Language Processing</h4>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Reinforcement Learning</h4>
+              </div>
+            </li>
+            
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Science</h4>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Algorithms</h4>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Problem-Solving</h4>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Researhing</h4>
+              </div>
+            </li>
+
+
+          </ul>
+
+        </section>
+
+      </article> 
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Guilan</h4>
+
+              <span>2019 — 2023</span>
+
+              <p class="timeline-text">
+                B.Sc in Computer Engineering.
+                <br>
+                GPA: 3.66/4
+                </br>
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Artificial Intelligence</h4>
+
+              <span>Fall 2022</span>
+
+              <p class="timeline-text">
+                University of Guilan
+                <br>
+                Instructor: Dr. Y. Boreshban
+                <br>
+                Head TA
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Algorithm Design</h4>
+
+              <span>Fall 2021</span>
+
+              <p class="timeline-text">
+                University of Guilan
+                <br>
+                Instructor: Dr. A. Khozaei
+                <br>               
+                Head TA
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Structure</h4>
+
+              <span>Fall 2021</span>
+
+              <p class="timeline-text">
+                University of Guilan
+                <br>
+                Instructor: Dr. F. Feyzi 
+                <br>              
+                Head TA
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Discrete Mathematics</h4>
+
+              <span>Fall 2020 / Fall 2021</span>
+
+              <p class="timeline-text">
+                University of Guilan
+                <br>
+                Instructor : Dr. S. M. Shekarian
+                <br>
+                Head TA
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Digital Circuits</h4>
+
+              <span>Fall 2021</span>
+
+              <p class="timeline-text">
+                University of Guilan
+                <br>
+                Instructor: Dr. M. Aminian
+                <br>
+                Head TA
+                </br>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Computer Architecture</h4>
+
+              <span>Fall 2021</span>
+
+              <p class="timeline-text">
+                University of Guilan
+                <br>
+                Instructor: Dr. H. Ahmadifar
+               </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Computer Aided Design</h4>
+
+              <span>Fall 2022</span>
+
+              <p class="timeline-text">
+                University of Guilan
+                <br>
+                Instructor: Dr. M. Aminian
+                <br>
+                Head TA
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Microelectronic Circuits</h4>
+
+              <span>Spring 2023</span>
+
+              <p class="timeline-text">
+                University of Guilan
+                <br>
+                Instructor: Dr. M. Aminian
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5"><b>Programming Languages:</b> Python, Java, C++, C, VHDL, MySQL</h5>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5"><b>ML Frameworks:</b> Pytorch, TensorFlow, Keras, Scikit-learn, Huggingface</h5>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5"><b>Data Science Tools:</b> Numpy, Pandas, Matplotlib, Seaborn</h5>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5"><b>Web development:</b> HTML, CSS</h5>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5"><b>Extra tools:</b> Git, Latex</h5>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5"><b>Technical Expertise:</b> Machine Learning, Deep Learning, Natural Language Processing, Data Structures, Algorithms</h5>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #Project
+      -->
+
+      <article class="portfolio" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Research Papers</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Sperm Analysis</h4>
+
+              <span>January 2023 - Present</span>
+
+              <p class="timeline-text">
+                Zahra Ahmadi, Yazdan Haghi, Seyed Abolghasem Mirroshandel, Yasaman Boreshban
+                <br>
+                In this research project, we employed Meta-learning to improve the accuracy of sperm abnormality detection.
+              </p>
+
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Selected Projects</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Normal Cyst Tumor And Stone</h4>
+
+              <!-- <span>PyTorch</span> -->
+
+              <p class="timeline-text">
+                The dataset comprises CT images of the kidneys, covering four distinct categories: 
+                tumors, cysts, normal, and stones. I've implemented basic Convolutional Neural Networks (CNNs), 
+                ResNet, and VGG architectures for image classification on these images.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Amazon Reviews</h4>
+
+              <p class="timeline-text">
+                A machine learning model was developed and trained on Amazon Reviews to analyze user sentiment. 
+                The dataset was extensively preprocessed, involving techniques such as tokenization, stopwords removal, 
+                lemmatization, stemming, tag and emoji removal, and normalization.
+                <br>
+                The sentiment analysis task on Amazon reviews was conducted using Logistic Regression. 
+                The repository provides resources and code for a variety of sentiment classification models, 
+                including Embedding Models, BERT, and Simple Neural Networks.
+                </br>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">An Odd Music Generator</h4>
+
+              <!-- <span>2019 — 2023</span> -->
+
+              <p class="timeline-text">
+                This project aims to explore Autoencoders Denoising, data augmentation methods, 
+                audio file processing, string-to-string models (Seq2seq), and intelligent systems.
+                <br>
+                The project consists of four key components: Denoising, Note Recognition, Note Prediction, and Noise Maker.
+                <br>
+                I used an LSTM-based n-gram language model to predict the next musical note in a sequence, 
+                supporting the development of well-structured musical compositions.
+                </br>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Multi Class Weather</h4>
+
+              <!-- <span>2019 — 2023</span> -->
+
+              <p class="timeline-text">
+                I worked with the Multi-class Weather Dataset consisting of Rain, Shine, Sunrise, and Cloudy categories. 
+                The project focused on computer vision, image processing, 
+                and deep neural networks using models like ResNet and Inception with k-fold cross-validation for evaluation.
+              </p>
+
+            </li>
+
+          </li>
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">Analyzing Human Metaphase II Oocyte Images</h4>
+
+            <!-- <span>2019 — 2023</span> -->
+
+            <p class="timeline-text">
+              This project serves as an example of semantic segmentation, 
+              featuring the implementation of a robust deep learning-based multiclass semantic segmentation method. 
+              It is specifically designed for analyzing human metaphase II oocyte images, as outlined in a 
+              <a href="https://www.sciencedirect.com/science/article/abs/pii/S0169260721000201">paper </a>
+
+            </p>
+
+          </li>
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">NLP Subject Similarity</h4>
+
+            <!-- <span>2019 — 2023</span> -->
+
+            <p class="timeline-text">
+            The project includes sentence pairs with sentence1 and sentence2, 
+            scored for textual similarity, amenable to regression or classification using neural networks.
+            <br>
+            The project utilizes neural networks for similarity analysis, involving Data Labeling, 
+            Multi-label RNN Classification, Text Preprocessing, and Classification Networks.
+            </p>
+
+          </li>
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">Students Academic Performance</h4>
+
+            <!-- <span>2019 — 2023</span> -->
+
+            <p class="timeline-text">
+              The project aimed to utilize a custom neural network structure created from scratch 
+              (Neural Networks from Scratch) for predicting student acceptance or rejection during an 
+              academic semester based on their characteristics. Furthermore, TensorFlow was employed to 
+              achieve the same objective.
+            </p>
+
+          </li>
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">Trie</h4>
+
+            <!-- <span>2019 — 2023</span> -->
+
+            <p class="timeline-text">
+              For my university's Data Structure course project, I developed a student management system. 
+              I utilized a HashTable to store student data indexed by their IDs and implemented a 
+              Trie tree to store HashTable's keys.
+            </p>
+
+          </li>
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">Four In Row</h4>
+
+            <!-- <span>2019 — 2023</span> -->
+
+            <p class="timeline-text">
+              The game is set in single-player mode, with an AI Agent using the Negamax algorithm. 
+              This algorithm calculates the minimum value of child nodes in one step and subsequently 
+              selects the maximum value among these minimum values as the value for the parent node in the next step.
+            </p>
+
+          </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="certification">
+
+        <header>
+          <h2 class="h2 article-title">Certification</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/JMEDLEQLT3ZR
+              ">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/deeplearning.png" alt="deeplearning" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">September 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Deep Learning Specialization</h3>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.coursera.org/account/accomplishments/certificate/NZREHXWG5HK8">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/stanford.png" alt="stanford" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">January 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Machine Learning</h3>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.coursera.org/account/accomplishments/certificate/CNRD7FPKSMH7">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/deeplearning.png" alt="deeplearning" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">September 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Build Basic Generative Adversarial Networks (GANs)</h3>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.coursera.org/account/accomplishments/certificate/J9CR8D48RLFK">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/machigan.png" alt="machigan" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">September 2021</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Introduction to Data Science in Python</h3>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.coursera.org/account/accomplishments/certificate/MEKQ3GFQ2488">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/tensorflow.png" alt="tensorflow" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">July 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning</h3>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/tensorflow.png" alt="tensorflow" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">July 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Convolutional Neural Networks in TensorFlow</h3>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.coursera.org/account/accomplishments/certificate/5JFPZTTCGNXY">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/stanford.png" alt="stanford" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">July 2021</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Graph Search, Shortest Paths, and Data Structures</h3>
+
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.coursera.org/account/accomplishments/certificate/JZD8NKLDB86L">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/stanford.png" alt="stanford" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">July 2021</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Divide and Conquer, Sorting and Searching, and Randomized Algorithms</h3>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.coursera.org/account/accomplishments/certificate/7ADDEQWA9F7R">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/html5.png" alt="html5" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">February 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Introduction to HTML5</h3>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+ 
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
