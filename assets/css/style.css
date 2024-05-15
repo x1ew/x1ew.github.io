@@ -168,6 +168,11 @@ body {
   background: var(--smoky-black);
 }
 
+.link {
+  color: var(--orange-yellow-crayola);
+  display: inline;
+}
+
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
@@ -694,7 +699,7 @@ main {
 }
 
 .timeline-text {
-  color: var(--light-gray);
+  color: var(--light-gray) !important; 
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
@@ -917,6 +922,73 @@ main {
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
 }
+
+/*-----------------------------------*\
+  #Skills
+\*-----------------------------------*/
+
+.skills-container {
+  padding: 0 62px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  gap: 10px 20px;
+}
+
+.skills-details {
+  color: var(--orange-yellow-crayola);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+.skills-details p {
+  color: white;
+}
+
+.skills-details svg {
+  width: 16px;
+  height: 16px;
+}
+
+.skills-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 32px;
+  gap: 42px;
+}
+
+.skills-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.skills-sec .title-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+.skills-dot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+}
+
+.skills-dot span {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: var(--orange-yellow-crayola);
+}
+
 
 /*-----------------------------------*\
   #Certifictions
